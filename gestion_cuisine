@@ -1,0 +1,32 @@
+<?php
+$lien = include_once("index.php")
+?>
+
+<h1>Gestion des plats</h1>
+            <input type="text" value="nom" name="nom">
+            <input type="text" value="description" name="description">
+            <input type="text" value="ingredients" name="ingredients">
+            <input type="text" value="prix_plat" name="prix_plat">
+            <input type="text" value="type" name="type">
+            <input type="submit" value="enregistrer" name="enregistrer">
+            <input type="submit" value="publier" name="publier">
+            <input type="submit" value="supprimer" name="supprimer">
+            <input type="submit" value="modifier" name="modifier">
+
+<h1>Gestion des menus</h1>
+            <input type="text" value="nom" name="nom">
+            <input type="text" value="description" name="description">
+            <input type="text" value="ingredients" name="ingredients">
+            <input type="text" value="prix_menu" name="prix_menu">
+            <input type="submit" value="nouveau" name="nouveau">
+            <input type="submit" value="publier" name="publier">
+            <input type="submit" value="supprimer" name="suprimer">
+            <input type="submit" value="modifier" name="modifier">
+
+<h1>Gestion des stocks</h1>
+            <input type="text" value="nom" name="nom">
+            <input type="number" value="quantite" name="quantite">
+            <input type="number" value="prix_unite" name="prix_unite">
+            <input type="submit" value="ajouter" name="ajouter">
+            <input type="submit" value="consulter" name="consulter">
+            <input type="submit" value="rupture" name="rupture">
