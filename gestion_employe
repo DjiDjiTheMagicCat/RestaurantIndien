@@ -1,0 +1,11 @@
+<?php
+$lien = include_once("index.php")
+?>
+
+<h1>Fiche employé</h1>
+            <input type="text" value="nom" name="nom">
+            <input type="text" value="prenom" name="prenom">
+            <input type="text" value="salaire" name="salaire">
+            <input type="text" value="poste" name="poste">
+            <input type="text" value="adresse" name="adresse">
+        
